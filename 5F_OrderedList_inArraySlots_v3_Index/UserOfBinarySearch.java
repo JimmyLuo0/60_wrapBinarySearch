@@ -30,6 +30,7 @@ public class UserOfBinarySearch {
                 "Value " + findMe
               + " was found at index " + foundAt
               + ". That's correct, eh? " + (foundAt == i)
+			  + orderedList.cost()
               );
         }
         System.out.println();

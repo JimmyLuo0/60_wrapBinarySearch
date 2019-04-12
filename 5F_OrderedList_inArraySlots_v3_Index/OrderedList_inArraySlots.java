@@ -19,13 +19,15 @@ public class OrderedList_inArraySlots
               \findMe is absent from this list.
      */
     public int indexOf( Integer findMe) {
-        return indexOf_whileStyle( findMe)
-			   + System.lineSeparator()
-			   + cost;
+		cost = 0;
+        return indexOf_whileStyle( findMe);
         // return indexOf_recursive(
             // findMe, 0, list_iAS.size() -1);
     }
 
+	public int cost(){
+		return cost;
+	}
 
     /**
       @return the indexOf value, calculated while-style
