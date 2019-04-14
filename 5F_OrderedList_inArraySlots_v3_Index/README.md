@@ -8,8 +8,9 @@ OrderedList_inArraySlots.java
 based on [solutionsHolmes/5D_genericTypes/OrderedList_inArraySlots_v2/](https://github.com/stuyvesant-cs/solutionsHolmes/tree/master/5D_genericTypes/OrderedList_inArraySlots_v2)
 as of 2019-04-10 04:48
 
-What is meant by y = log2x? What does its graph look like?
-2 raised to the y power equals x. The log graph is only in Quadrant I and Quadrant IV and the increase rate of y decreases as x increases.
+What is meant by count = log2n? What does its graph look like?
+The power that 2 needs to be raised to in order to equal n is count. 
+The log graph is only in Quadrant I and Quadrant IV and the increase rate of y decreases as x increases.
 
 State the problem
 Find the location of an element in a list of size n.
